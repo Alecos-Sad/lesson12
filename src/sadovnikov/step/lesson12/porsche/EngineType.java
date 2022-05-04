@@ -8,10 +8,16 @@ public enum EngineType {
     ELECTRO("Ээлектро");
 
 
-    private String type;
+    private final String type;
 
     EngineType(String type) {
+        this.type = type;
+    }
 
-
+    @Override
+    public String toString() {
+        return "EngineType{" +
+                "type='" + type + '\'' +
+                '}';
     }
 }

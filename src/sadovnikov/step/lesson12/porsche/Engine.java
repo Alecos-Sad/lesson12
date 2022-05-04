@@ -6,6 +6,9 @@ public class Engine {
     private int power;
     private EngineType engineType;
 
+    public Engine() {
+    }
+
     public Engine(double volume) {
         this.volume = volume;
     }

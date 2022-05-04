@@ -5,6 +5,10 @@ public class Wheel {
     private int radius;
     private int width;
 
+
+    public Wheel() {
+    }
+
     public Wheel(int radius) {
         this.radius = radius;
     }
